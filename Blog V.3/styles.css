@@ -1,0 +1,170 @@
+
+/* Cabeçalho */
+header {
+background-color: rgb(230,230,230);
+width: 100%;
+font-size: 10.3px;
+font-family: 'Arial Narrow';
+letter-spacing: .2px;
+position: static;
+left: 0;
+display: flex;
+justify-content: center;
+margin-top: 0px;
+
+
+}
+
+/* Menu */
+.menu {   
+width: 50%;
+background-color: white;
+left: 20%;
+top:60px;
+height: 30px;
+
+position:absolute;
+list-style-type: none;
+justify-content: space-between;
+display: flex;
+font-size: 18px;
+}
+
+/* estiliza o paragráfo no rodapé do site */
+.pfooter{
+padding-left: 35%;
+text-align: left;
+}
+
+/* Estiliza o conteúdo do site */  
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    height: 100vh;
+  }
+
+  .containerP{
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-family: sans-serif;
+    color: rgb(52, 52, 52);
+  }
+ 
+.conhecimento {
+flex: 1.5;
+background-color: rgb(200,200,200);
+padding: 20px;
+text-align: left;
+font-size: 15px;
+font-style: normal;
+font-family: sans-serif;
+font-weight: 500;
+color: rgb(52, 52, 52);
+
+  }
+  
+.column2 {
+    flex: 10;
+    background-color: lightgray;
+    padding: 20px;
+  }
+  
+.column3 {
+    flex: 1;
+    padding: 20px;
+    background-image: url('https://st2.depositphotos.com/3649089/9095/i/600/depositphotos_90957880-stock-photo-grey-triangles-geometric-background-polygonal.jpg');
+    background-repeat: repeat;
+  }
+  
+
+/* Estiliza o Rodapé do site */
+.footer {   
+background-color: rgb(230,230,230);
+width: 100%;
+bottom: 0;
+left:0;
+padding: 10px;
+
+text-align: center;
+position:static;
+font-size: 15.75px;
+font-style: normal;
+font-family: sans-serif;
+font-weight: 400;
+line-height: 27px;
+color: rgb(52, 52, 52);
+}
+
+/* Estiliza as colunas do rodapé do site */
+.colunas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+/* Estiliza como as colunas ficarão visíveis no rodapé do site */  
+  .col-1 {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+
+/* Estiliza o link da página */
+a{
+    font-family: sans-serif;
+font-size: 15.75px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+color: rgb(52, 52, 52);
+text-decoration: none;
+}
+
+/* Estiliza o formulário de envio de email */
+.form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    padding: 10px;
+    padding-bottom: 30px;
+    justify-content: right;
+  }
+
+/* Estiliza o input de envio de email */
+  .form-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  /* Estiliza o botão de submit do formulário de envio de email */
+  .form-submit {
+    background-color: #414141;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+
+.icones_rodape_colunas{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+}
+
+  .icones_rodape {
+    flex: 0.02;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
